@@ -4,8 +4,8 @@ import './styles/global.css';
 import Home from './templates/Home';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Home />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <React.StrictMode>
+        <Home />
+    </React.StrictMode>,
+    document.getElementById('root'),
 );
